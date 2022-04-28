@@ -690,7 +690,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "You saved the store.","Bạn đã lưu cửa hàng.",module,Magento_Backend
 "Something went wrong while saving. Please review the error log.","Xảy ra lỗi khi lưu. Vui lòng xem lại lỗi log.",module,Magento_Backend
 "Authentication storage is incorrect.","Xác thực bộ nhớ không đúng.",module,Magento_Backend
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",module,Magento_Backend
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Đăng nhập tài khoản không chính xác hoặc tài khoản của bạn tạm thời bị vô hiệu hóa. Vui lòng đợi và thử lại sau.",module,Magento_Backend
 "An authentication error occurred. Verify and try again.","An authentication error occurred. Verify and try again.",module,Magento_Backend
 "The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.",module,Magento_Backend
 "The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.",module,Magento_Backend
@@ -4652,7 +4652,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Please enter a password with at most %1 characters.","Vui lòng nhập một mật khẩu với tại nhiều nhất %1 ký tự.",module,Magento_Customer
 "The password needs at least %1 characters. Create a new password and try again.","The password needs at least %1 characters. Create a new password and try again.",module,Magento_Customer
 "The password can't begin or end with a space. Verify the password and try again.","The password can't begin or end with a space. Verify the password and try again.",module,Magento_Customer
-"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Tối thiểu của các nhóm khác nhau của các ký tự trong mật khẩu là %1. Các nhóm ký tự: chữ, chữ hoa, chữ số, ký tự đặc biệt.",module,Magento_Customer
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Số lượng tối thiểu ký tự trong mật khẩu là %1. Phải bao gồm: chữ, chữ hoa, chữ số, ký tự đặc biệt.",module,Magento_Customer
 "The password can't be the same as the email address. Create a new password and try again.","The password can't be the same as the email address. Create a new password and try again.",module,Magento_Customer
 "This customer already exists in this store.","Khách hàng này đã tồn tại trong cửa hàng.",module,Magento_Customer
 "A customer with the same email address already exists in an associated website.","A customer with the same email address already exists in an associated website.",module,Magento_Customer
@@ -12314,7 +12314,7 @@ Giới hạn sử dụng chỉ được áp dụng cho khách hàng đã đăng 
 "By Email","Bằng Email",module,Magento_Security
 "None","Không cái nào",module,Magento_Security
 "Expiration Date","Expiration Date",module,Magento_Security
-"We received too many requests for password resets. Please wait and try again later or contact %1.","We received too many requests for password resets. Please wait and try again later or contact %1.",module,Magento_Security
+"We received too many requests for password resets. Please wait and try again later or contact %1.","Chúng tôi đã nhận được quá nhiều yêu cầu này. Vui lòng thử lại sau hoặc liên hệ %1.",module,Magento_Security
 "Incorrect Security Checker class. It has to implement SecurityCheckerInterface","Lớp kiểm tra an ninh không chính xác. Nó có để thực hiện giao diện kiểm tra an ninh",module,Magento_Security
 """%1"" must be later than the current date.","""%1"" must be later than the current date.",module,Magento_Security
 """%1"" is not a valid date.","""%1"" is not a valid date.",module,Magento_Security
@@ -13935,7 +13935,7 @@ We back our approvals with 100% chargeback protection, reimbursing you the full 
 "Please enter a valid email address (Ex: johndoe@domain.com).","Vui lòng nhập một địa chỉ email hợp lệ (ví dụ: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Vui lòng nhập 6 kí tự trở lên. Hàng đầu và chuỗi dấu cách sẽ bị bỏ qua.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","Xin vui lòng nhập 7 ký tự hoặc nhiều hơn, bằng cách sử dụng cả số và chữ.",module,Magento_Ui
-"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.",module,Magento_Ui
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Độ dài tối thiểu phải lớn hơn hoặc bằng %1 kí tự. Khoảng trắng đầu và cuối sẽ bị bỏ qua.",module,Magento_Ui
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Tối thiểu của các nhóm khác nhau của các ký tự trong mật khẩu là %1. Các nhóm ký tự: chữ, chữ hoa, chữ số, ký tự đặc biệt.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Vui lòng nhập một URL hợp lệ. Giao thức là bắt buộc (http://, https:// hoặc ftp: / /).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Vui lòng nhập một URL hợp lệ. ví dụ http://www.example.com hoặc www.example.com.",module,Magento_Ui
@@ -15296,7 +15296,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Please enter a valid URL.","Please enter a valid URL.",lib,web
 "Please enter a valid date (ISO).","Please enter a valid date (ISO).",lib,web
 "Please enter only digits.","Please enter only digits.",lib,web
-"Please enter the same value again.","Please enter the same value again.",lib,web
+"Please enter the same value again.","Vui lòng nhập cùng lại cùng giá trị.",lib,web
 "Please enter no more than {0} characters.","Please enter no more than {0} characters.",lib,web
 "Please enter at least {0} characters.","Please enter at least {0} characters.",lib,web
 "Please enter a value between {0} and {1} characters long.","Please enter a value between {0} and {1} characters long.",lib,web
